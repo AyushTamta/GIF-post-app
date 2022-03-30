@@ -1,0 +1,106 @@
+* {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 18px;
+}
+
+.post-btn {
+  background-color: #3b5998;
+  margin-right: 15px;
+  width: 85px;
+  height: 80%;
+  margin-left: auto;
+  color: white;
+  float: right;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.gif-search {
+  margin-top: 5px;
+  width: 14rem;
+  border-style: none;
+  border-radius: 12px;
+  background-color: #e9ebee;
+  text-align: left;
+}
+
+.gifInput {
+  height: 25px;
+  width: 100%;
+}
+
+#dropdown-menu {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: scroll;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-top: 19px;
+  border-style: none;
+}
+
+.preview {
+  width: 00%;
+  height: 100%;
+}
+
+.form-control {
+  height: 140px;
+}
+
+.search-gif {
+  width: 530px;
+  height: 530px;
+}
+
+.search-gif_d {
+  width: 100%;
+}
+
+.container2_head {
+  background-color: #e9ebee;
+  display: flex;
+  margin-top: 20px;
+  padding: 5px;
+  height: 35px;
+}
+
+.container2 {
+  background-color: #e9ebee;
+  display: flex;
+  margin-top: 20px;
+  padding: 1px;
+  height: 35px;
+}
+
+.gif_img {
+  height: 25px;
+  padding: 4px;
+}
+.avatar {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  height: 45px;
+}
+
+.avatar_post {
+  height: 45px;
+}
+
+.card_ps {
+  width: 80%;
+}
